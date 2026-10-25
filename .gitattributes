@@ -1,0 +1,15 @@
+# Exclude build artifacts
+# Configuration for git attributes
+# Default behavior
+*.md linguist-documentation 
+*.json linguist-detectable=false
+*.sh text eol=lf
+
+*.woff2 binary
+
+*.html linguist-vendored
+src/**/*.js linguist-detectable
+dist/* linguist-vendored
+*.png binary
+* text=auto eol=lf
+**/*.js linguist-detectable
